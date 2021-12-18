@@ -1,8 +1,8 @@
 <template>
     <div class="fixed top-0 right-0 flex flex-row">
         <div class="flex flex-col z-20">
-            <label for="toggleColor" class="cursor-pointer mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">Color</label>
-            <label for="toggleX" class="cursor-pointer mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">X</label>
+            <label for="toggleColor" class="cursor-pointer w-fit mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">Color</label>
+            <label for="toggleX" class="cursor-pointer w-fit mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">X</label>
         </div>  
         <div class="z-30"> 
             <label for="toggleColor" class="fixed top-0 cursor-pointer flex flex-row right-0">
