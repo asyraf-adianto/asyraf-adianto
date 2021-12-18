@@ -3,7 +3,8 @@
       <BackgroundGreenBlue />
       <label for="toggle" class="fixed top-0 cursor-pointer flex flex-row right-0 z-50">
         <input id="toggle" type="checkbox" class="hidden peer"/>
-        <div class="mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:left-0">Color</div>
+        <div class="mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">Color</div>
+        <div class="mb-auto p-2 bg-gray-100 opacity-40 left-0 hidden peer-checked:block">Back</div>
         <div class="flex-col bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex">
           <div class="text-sm pb-2 font-bold">Color Reference</div>
           <ul class="overflow-auto">
