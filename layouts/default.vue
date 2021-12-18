@@ -1,21 +1,19 @@
 <template>
     <div class="">
       <BackgroundGreenBlue />
-      <div class="fixed right-0 top-0">
+      <label for="toggle" class="fixed top-0 cursor-pointer flex flex-row right-0">
         <input id="toggle" type="checkbox" class="hidden peer"/>
-        <label for="toggle" class="cursor-pointer flex flex-row right-0">
-          <div class="mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:left-0"></div>
-          <div class="flex-col rounded-xl bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex">
-            <div class="text-sm pb-2 font-bold">Color Reference</div>
-            <ul class="overflow-auto">
-              <li v-for="color of colorClass" :key="color.id" class="flex flex-row items-center text-xs">
-                <div v-bind:class="[color.color]" class="w-6 h-6 mr-2 border border-gray-400 bg-inherit"></div>
-                <p>{{ color.color }}</p>
-              </li>
-            </ul>
-          </div>
-        </label>
-      </div>
+        <div class="mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:left-0">Color</div>
+        <div class="flex-col bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex">
+          <div class="text-sm pb-2 font-bold">Color Reference</div>
+          <ul class="overflow-auto">
+            <li v-for="color of colorClass" :key="color.id" class="flex flex-row items-center text-xs">
+              <div v-bind:class="[color.color]" class="w-6 h-6 mr-2 border border-gray-400 bg-inherit"></div>
+              <p>{{ color.color }}</p>
+            </li>
+          </ul>
+        </div>
+      </label>
       Test
       <Nuxt />
     </div>
