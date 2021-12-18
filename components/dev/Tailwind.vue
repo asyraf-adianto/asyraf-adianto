@@ -1,14 +1,14 @@
 <template>
     <div class="fixed top-0 right-0 flex flex-row">
-        <div class="flex flex-col">
-            <label for="toggleColor" class="cursor-pointer mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden z-30">Color</label>
-            <label for="toggleX" class="cursor-pointer mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden z-30">X</label>
+        <div class="flex flex-col z-20">
+            <label for="toggleColor" class="cursor-pointer mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">Color</label>
+            <label for="toggleX" class="cursor-pointer mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">X</label>
         </div>  
-        <div> 
+        <div class="z-30"> 
             <label for="toggleColor" class="fixed top-0 cursor-pointer flex flex-row right-0">
                 <input id="toggleColor" type="checkbox" class="hidden peer"/>
-                <div class="mb-auto p-2 bg-gray-100 opacity-40 left-0 hidden peer-checked:block z-30">Back</div>
-                <div class="flex-col bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex z-50">
+                <div class="mb-auto p-2 bg-gray-100 opacity-40 left-0 hidden peer-checked:block">Back</div>
+                <div class="flex-col bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex">
                     <div class="text-sm pb-2 font-bold">Color Reference</div>
                     <ul class="overflow-auto">
                     <li v-for="color of colorClass" :key="color.id" class="flex flex-row items-center text-xs">
@@ -20,8 +20,8 @@
             </label>
             <label for="toggleX" class="fixed top-0 cursor-pointer flex flex-row right-0">
                 <input id="toggleX" type="checkbox" class="hidden peer"/>
-                <div class="mb-auto p-2 bg-gray-100 opacity-40 left-0 hidden peer-checked:block z-30">Back</div>
-                <div class="flex-col bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex z-50">
+                <div class="mb-auto p-2 bg-gray-100 opacity-40 left-0 hidden peer-checked:block">Back</div>
+                <div class="flex-col bg-white border border-gray-400 p-2 w-40 h-screen hidden peer-checked:flex">
                     <div class="text-sm pb-2 font-bold">X Reference</div>
                     <ul class="overflow-auto">
                     </ul>
