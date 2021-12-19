@@ -31,8 +31,8 @@
         </div>
 
         <!-- Footer Container-->
-        <div class="flex-none flex flex-row items-center justify-between h-10 border-t border-gray-500">
-          <p class="text-gray-300">This project cannot be developed without using:</p>
+        <div class="flex-none flex flex-row items-center justify-right h-10 border-t border-gray-500">
+          <p class="text-gray-500">This project cannot be developed without using:</p>
         </div>
       </div>
     </div>
