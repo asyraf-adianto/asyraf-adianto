@@ -3,10 +3,10 @@
       <div class="flex-none bg-green-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
           Asyraf N. Adianto
       </div>
-      <div class="bg-blue-200 h-96 flex flex-col text-center xl:flex-row xl:test-left">
+      <div class="bg-blue-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
           Project Management
       </div>
-      <div class="bg-red-200 h-96 flex flex-col text-center xl:flex-row xl:test-left">
+      <div class="bg-red-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
           Whats next?
       </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
     <!-- Main Container-->
-    <div class="w-screen h-screen flex justify-center py-2 px-2 lg:px-0">
+    <div class="w-screen h-screen flex justify-center py-2 px-2 lg:px-0 overflow-none">
       <BackgroundLight />
       <DevTailwind class="hidden xl:block" />     
 
