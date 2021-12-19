@@ -1,11 +1,11 @@
 <template>
     <!-- Main Container-->
-    <div class="w-screen h-screen flex justify-center py-2">
+    <div class="w-screen h-screen flex justify-center py-2 px-2 lg:px-0">
       <BackgroundLight />
       <DevTailwind />     
 
       <!-- After Justify Center Container-->
-      <div class="flex flex-col gap-2 w-8/12">
+      <div class="w-full flex flex-col gap-2 lg:w-8/12">
       
         <!-- Header Container-->
         <div class="flex-none flex flex-row items-center justify-between h-14 border border-gray-500 rounded-xl px-4 ">
@@ -31,25 +31,27 @@
         </div>
 
         <!-- Footer Container-->
-        <div class="flex-none flex flex-row items-center justify-end h-10 border-t border-gray-500 gap-3">
-          <p class="text-gray-500">This project cannot be developed without using:</p>
+        <div class="flex-none flex-row items-center justify-end h-10 border-t border-gray-500 gap-3 hidden lg:flex ">
+          <p class="text-gray-500 xl:text-sm lg:text-xs">
+            This project cannot be developed without using:
+          </p>
           <a href="https://nuxtjs.org/">
-            <img src="/nuxt-js-modified.svg" class="h-4"/>
+            <img src="/nuxt-js-modified.svg" class="h-3 xl:h-4"/>
           </a>
           <a href="https://tailwindcss.com/">
-            <img src="/tailwind-css-modified.svg" class="h-4"/>
+            <img src="/tailwind-css-modified.svg" class="h-3 xl:h-4"/>
           </a>
           <a href="https://github.com/">
-            <img src="/github-modified.svg" class="h-4"/>
+            <img src="/github-modified.svg" class="h-3 xl:h-4"/>
           </a>
           <a href="https://vercel.com/">
-            <img src="/vercel-modified.svg" class="h-4"/>
+            <img src="/vercel-modified.svg" class="h-3 xl:h-4"/>
           </a>
           <a href="https://cloudinary.com/">
-            <img src="/cloudinary-modified.svg" class="h-4"/>
+            <img src="/cloudinary-modified.svg" class="h-3 xl:h-4"/>
           </a>
           <a href="https://www.deta.sh/">
-            <img src="/deta-cloud-modified.svg" class="h-4"/>
+            <img src="/deta-cloud-modified.svg" class="h-3 xl:h-4"/>
           </a>
         </div>
       </div>
