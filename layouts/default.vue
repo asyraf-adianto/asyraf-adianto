@@ -2,7 +2,7 @@
     <!-- Main Container-->
     <div class="w-screen h-screen flex justify-center py-2 px-2 lg:px-0">
       <BackgroundLight />
-      <DevTailwind />     
+      <DevTailwind class="hidden xl:block" />     
 
       <!-- After Justify Center Container-->
       <div class="w-full flex flex-col gap-2 lg:w-8/12">
@@ -13,7 +13,7 @@
           <div>
             <NuxtLink :to="{ path: '/profile' }">                         
               <p class="text-md text-gray-500">Profile</p>
-          </NuxtLink>
+            </NuxtLink>
           </div>
           <!-- <span>Upload to Cloudinary</span>
           <input
