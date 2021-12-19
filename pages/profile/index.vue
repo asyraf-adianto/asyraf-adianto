@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full flex flex-col overflow-auto">
+  <div class="w-full h-screen flex flex-col overflow-auto">
       <div class="bg-green-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
           Asyraf N. Adianto
       </div>
