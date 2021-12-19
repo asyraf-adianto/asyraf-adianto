@@ -1,7 +1,10 @@
 <template>
   <div class="w-full h-full flex flex-col">
-      <div class="h-100% flex flex-col text-center xl:flex-row xl:test-left">
+      <div class="bg-green-200 h-100% flex flex-col text-center xl:flex-row xl:test-left">
           Asyraf N. Adianto
+      </div>
+      <div class="bg-blue-200 h-100% flex flex-col text-center xl:flex-row xl:test-left">
+          Project Management
       </div>
   </div>
 </template>
