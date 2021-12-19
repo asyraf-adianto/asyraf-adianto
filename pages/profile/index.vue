@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full h-full flex flex-col overflow-auto">
-      <div class="bg-green-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
+  <div class="w-full h-full flex flex-col">
+      <div class="flex-none bg-green-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
           Asyraf N. Adianto
       </div>
       <div class="bg-blue-200 h-96 flex flex-col text-center xl:flex-row xl:test-left">

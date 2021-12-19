@@ -25,7 +25,7 @@
         </div>
 
         <!-- Body Container-->
-        <div class="flex-grow bg-white">
+        <div class="flex-grow bg-white overflow-auto">
           <Nuxt />
         </div>
 
