@@ -1,8 +1,8 @@
 <template>
     <div class="fixed top-0 right-0 flex flex-row">
-        <div class="flex flex-col z-20">
-            <label for="toggleColor" class="cursor-pointer w-fit mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">Color</label>
-            <label for="toggleX" class="cursor-pointer w-fit mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">X</label>
+        <div class="flex flex-col z-20 gap-1">
+            <label for="toggleColor" class="cursor-pointer w-fit ml-auto mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">Color</label>
+            <label for="toggleX" class="cursor-pointer w-fit ml-auto mb-auto p-2 bg-gray-100 opacity-40 right-0 peer-checked:hidden">X</label>
         </div>  
         <div class="z-30"> 
             <label for="toggleColor" class="fixed top-0 cursor-pointer flex flex-row right-0">
@@ -33,7 +33,6 @@
 <script>
 export default {
   head: {
-    title: 'My awesome project', // Other meta information
     script: [
       { hid: 'stripe', src: 'https://js.stripe.com/v3/', defer: true },
       { hid: 'jit', src: 'https://unpkg.com/tailwindcss-jit-cdn', defer: true }

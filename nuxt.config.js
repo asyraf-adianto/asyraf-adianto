@@ -42,6 +42,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+
+    '@nuxtjs/cloudinary',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -61,15 +63,22 @@ export default {
   content: {},
 
   googleFonts: {
-    // families: {
+    families: {
+      'Balsamiq+Sans': true,
     //   Roboto: true,
-    //   'Josefin+Sans': true,
+      
     //   Lato: [100, 300],
     //   Raleway: {
     //     wght: [100, 400],
     //     ital: [100]
     //   },
-    // }
+    }
+  },
+
+  cloudinary: {
+    cloudName: 'dsipw0z3u',
+    apiKey: '563847254891614', 
+    apiSecret: 'nvmZa9uxKXZsfz4dZ9HORe9-oe8' 
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
