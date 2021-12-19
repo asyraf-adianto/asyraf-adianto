@@ -26,7 +26,6 @@
 
         <!-- Body Container-->
         <div class="flex-grow bg-white">
-          2
           <Nuxt />
         </div>
 
