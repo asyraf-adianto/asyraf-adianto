@@ -8,7 +8,7 @@
       <div class="w-full flex flex-col gap-2 lg:w-8/12">
       
         <!-- Header Container-->
-        <div class="flex-none flex flex-row items-center justify-between h-14 border border-gray-500 rounded-xl px-4 ">
+        <div class="flex-none flex flex-row items-center justify-between h-14 border border-gray-500 rounded-xl px-4 shadow">
           <LogoAsyraf />
           <div>
             <NuxtLink :to="{ path: '/profile' }">                         
