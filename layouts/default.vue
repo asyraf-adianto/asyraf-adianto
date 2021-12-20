@@ -32,7 +32,7 @@
         <!-- Footer Container-->
         <div class="flex-none flex-row items-center justify-end h-10 border-t border-gray-500 gap-3 hidden lg:flex ">
           <p class="text-gray-500 xl:text-sm lg:text-xs">
-            This project cannot be developed without using:
+            This project cannot be developed without 
           </p>
           <a href="https://nuxtjs.org/">
             <img src="/nuxt-js-modified.svg" class="h-3 xl:h-4"/>

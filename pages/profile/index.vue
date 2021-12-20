@@ -1,7 +1,11 @@
 <template>
   <div class="w-full h-full flex flex-col">
       <div class="flex-none bg-green-200 h-full flex flex-col text-center xl:flex-row xl:test-left">
-          <img src="https://res.cloudinary.com/dsipw0z3u/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1639960232/profile/62_822-3480-5590_20211220_072758_z1xued.jpg" class="h-1/2" />
+          <div class="aspect-square h-1/2 rounded-full object-cover">
+            <img 
+              src="https://res.cloudinary.com/dsipw0z3u/image/upload/ar_1:1,c_fill,g_auto,o_100,q_100,r_max,w_640,z_1.1/v1639960232/profile/62_822-3480-5590_20211220_072758_z1xued.png" 
+            />
+          </div>
           <p class="text-3xl">Asyraf N. Adianto</p>
       
       </div>
