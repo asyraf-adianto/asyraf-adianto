@@ -9,7 +9,10 @@ module.exports = {
       extend: {
         zIndex: {
          '-50': '-50',
-        }
+        },
+        height: theme => ({
+          "content": "calc(100vh - 6rem)",
+        }),
       }
     }
   }
