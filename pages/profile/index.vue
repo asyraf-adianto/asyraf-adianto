@@ -1,7 +1,6 @@
 <template>   
   <!-- First Content -->
   <div class="relative w-full">
-    <div class="w-full h-14 bg-transparent"></div>
     <!-- <div class="mt-auto h-2/6 xl:h-full xl:w-1/2 xl:ml-auto xl:mt-0">
       <div class="aspect-square h-1/3 w-1/3 xl:h-full xl:w-full rounded-full object-cover">
         <img 
