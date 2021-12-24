@@ -27,7 +27,7 @@
       <div class="w-full h-14 bg-transparent"></div>
       <!-- Body Container-->
       <Nuxt />
-
+      <div class="w-full h-0 xl:h-10 bg-transparent"></div>
       <!-- Footer Container-->
       <div class="relative xl:fixed xl:bottom-0 xl:left-0 xl:h-10 bg-white border-t border-gray-500 px-4 py-2 shadow xl:z-50 w-full ">
         <FooterDesktop />
